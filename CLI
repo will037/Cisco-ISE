@@ -1,5 +1,13 @@
-!Verifica a versao do engine
+!Check engine version
 show application version ise
-!Verifica o status das aplicaçoes do engine
+!Check application running on engine
 show applications status ise
+!Check routes
+show ip route
+!Check NTP
+show ntp
+!Check time
+show clock
+!Chek disk
+show disk
 
