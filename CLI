@@ -1,3 +1,5 @@
-!Verifica as aplicaçoes rodando
+!Verifica a versao do engine
+show application version ise
+!Verifica o status das aplicaçoes do engine
 show applications status ise
 
