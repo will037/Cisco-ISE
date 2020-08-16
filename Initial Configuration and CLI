@@ -45,6 +45,12 @@ DHCP Server (dhcpd)                    disabled
 DNS Server (named)                     disabled
 
 
+===========================================================================================================================
+
+ISE shutdown
+1. Application stop ise
+2. Halt
+
 !Check engine version
 show application version ise
 !Check application running on engine
