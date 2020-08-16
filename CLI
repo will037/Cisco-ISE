@@ -1,3 +1,7 @@
+iNITIAL Deploy TIPs
+NTP IP address or url // better use IP address
+Domain name
+
 !Check engine version
 show application version ise
 !Check application running on engine
