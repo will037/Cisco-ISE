@@ -12,7 +12,7 @@ ISE PROCESS NAME                       STATE            PROCESS ID
 --------------------------------------------------------------------
 Database Listener                      running          16057
 Database Server                        running          109 PROCESSES
-Application Server                     running          20157
+Application Server                     running          20157 //WebGUI
 Profiler Database                      running          17437
 ISE Indexing Engine                    running          21842
 AD Connector                           running          28801
