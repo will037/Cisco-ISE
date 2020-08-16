@@ -6,6 +6,45 @@ NTP IP address or url // better use IP address
 a.st1.ntp.br or 200.160.7.186
 Domain name
 
+
+#show application status ise
+ISE PROCESS NAME                       STATE            PROCESS ID
+--------------------------------------------------------------------
+Database Listener                      running          16057
+Database Server                        running          109 PROCESSES
+Application Server                     running          20157
+Profiler Database                      running          17437
+ISE Indexing Engine                    running          21842
+AD Connector                           running          28801
+M&T Session Database                   running          17345
+M&T Log Collector                      running          20302
+M&T Log Processor                      running          20211
+Certificate Authority Service          running          28533
+EST Service                            not running
+SXP Engine Service                     disabled
+Docker Daemon                          running          24228
+TC-NAC Service                         disabled
+Wifi Setup Helper Container            running          28079
+ Wifi Setup Helper Vault               running          42
+ Wifi Setup Helper MongoDB             running          15
+ Wifi Setup Helper Web Server          running          229
+ Wifi Setup Helper Auth Service        running          132
+ Wifi Setup Helper Main Service        running          171
+ Wifi Setup Helper WLC Service         running          211
+pxGrid Infrastructure Service          disabled
+pxGrid Publisher Subscriber Service    disabled
+pxGrid Connection Manager              disabled
+pxGrid Controller                      disabled
+PassiveID WMI Service                  disabled
+PassiveID Syslog Service               disabled
+PassiveID API Service                  disabled
+PassiveID Agent Service                disabled
+PassiveID Endpoint Service             disabled
+PassiveID SPAN Service                 disabled
+DHCP Server (dhcpd)                    disabled
+DNS Server (named)                     disabled
+
+
 !Check engine version
 show application version ise
 !Check application running on engine
