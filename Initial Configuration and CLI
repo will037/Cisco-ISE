@@ -1,4 +1,8 @@
+For VMware deployment follow de guide.
 
+https://www.cisco.com/c/en/us/td/docs/security/ise/2-4/install_guide/b_ise_InstallationGuide24/b_ise_InstallationGuide24_chapter_011.html#ID-1417-000001ed
+
+Virtial machine intial setup take about 30 minuts
 30 minuts to run initial setup
 more one hour to applications status be ready
 iNITIAL Deploy TIPs
@@ -6,6 +10,7 @@ NTP IP address or url // better use IP address
 a.st1.ntp.br or 200.160.7.186
 Domain name
 
+ISE initial setup take about 1 hour to be completd.
 
 #show application status ise
 ISE PROCESS NAME                       STATE            PROCESS ID
