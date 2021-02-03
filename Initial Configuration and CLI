@@ -73,7 +73,8 @@ Configure NTP
 
 >conf t
 #ntp server a.st1.ntp.br
-#clock timezone America/Sao_Paulo
+#clock timezone America/Sao_Paulo // GMT -3 afetado pelo horário de verão
+clock timezone Brazil/DeNoronha // GMT -2
 
 show clock
 show ntp
