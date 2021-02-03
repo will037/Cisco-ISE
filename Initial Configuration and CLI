@@ -83,13 +83,18 @@ show timezones
 
 Backup 
 admin# conf t
-admin(config)# repository FTP_10.20.0.17
+admin(config)# repository FTP_LOCAL
 admin(config-Repository)#url ftp://10.XX.0.10/
 admin(config-Repository)#user ftp_user password plain ftp_pass
+admin# backup bkp_config_11_12_19 repository FTP_LOCAL ise-config encryption-key plain Cisco123
 
 Link CLI Guide
 https://www.cisco.com/c/en/us/td/docs/security/ise/1-3/cli_ref_guide/b_ise_CLIReferenceGuide/b_ise_CLIReferenceGuide_chapter_011.html
 
 ISE License
 https://community.cisco.com/t5/security-documents/ise-2-4-licensing-quick-access/ta-p/3653471
+
+Backup 
+https://brainwork.com.br/2019/12/16/backup-restore-cisco-ise-via-cli/
+
 
