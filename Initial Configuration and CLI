@@ -81,6 +81,11 @@ show ntp
 show timezone
 show timezones
 
+Backup 
+admin# conf t
+admin(config)# repository FTP_10.20.0.17
+admin(config-Repository)#url ftp://10.XX.0.10/
+admin(config-Repository)#user ftp_user password plain ftp_pass
 
 Link CLI Guide
 https://www.cisco.com/c/en/us/td/docs/security/ise/1-3/cli_ref_guide/b_ise_CLIReferenceGuide/b_ise_CLIReferenceGuide_chapter_011.html
