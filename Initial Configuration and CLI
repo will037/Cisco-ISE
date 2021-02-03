@@ -71,7 +71,7 @@ show disk
 
 Configure NTP
 
-#conf t
+>conf t
 #ntp server a.st1.ntp.br
 #clock timezone America/Sao_Paulo
 
