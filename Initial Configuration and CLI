@@ -81,6 +81,12 @@ show ntp
 show timezone
 show timezones
 
+Upgrade
+When you upgrade a node from the Admin portal, if the status does not change for a long time (and remains at 80%), 
+you can check the upgrade logs from the CLI or the status of the upgrade from the console. Log in to the CLI or 
+view the console of the Cisco ISE node to view the progress of upgrade. You can use the show logging application command 
+to view the upgrade-uibackend-cliconsole.log and upgrade-postosupgrade-yyyymmdd-xxxxxx.log.
+
 Backup 
 admin# conf t
 admin(config)# repository FTP_LOCAL
