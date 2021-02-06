@@ -6,7 +6,7 @@ Virtial machine intial setup take about 30 minuts
 30 minuts to run initial setup
 more one hour to applications status be ready
 iNITIAL Deploy TIPs
-NTP IP address or url // better use IP address
+NTP IP address or url 
 a.st1.ntp.br or 200.160.7.186
 Domain name
 
@@ -93,6 +93,12 @@ admin(config)# repository FTP_LOCAL
 admin(config-Repository)#url ftp://10.XX.0.10/
 admin(config-Repository)#user ftp_user password plain ftp_pass
 admin# backup bkp_config_11_12_19 repository FTP_LOCAL ise-config encryption-key plain Cisco123
+
+
+BEFORE REGISTER a NODE
+
+!Performe a name resolution to all ise node
+nslookup ise0x.domain.local
 
 Link CLI Guide
 https://www.cisco.com/c/en/us/td/docs/security/ise/1-3/cli_ref_guide/b_ise_CLIReferenceGuide/b_ise_CLIReferenceGuide_chapter_011.html
